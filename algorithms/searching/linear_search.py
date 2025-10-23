@@ -37,7 +37,7 @@ def linear_search(arr, target):
     for index, element in enumerate(arr):
         # Comparison step
         if element == target:
-            return index  # ✅ Target found, return its index
+            return index  # Target found, return its index
 
     # If target not found, return -1
     return -1
