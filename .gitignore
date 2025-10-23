@@ -1,0 +1,44 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+.installed.cfg
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv.bak/
+env.bak/
+
+.vscode/
+# PyCharm / IntelliJ
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+.coverage
+.tox/
+.nox/
+pytest_cache/
+coverage.xml
+htmlcov/
+.cache/
+*.log
+
+
+.ipynb_checkpoints
+*.tmp
+*.bak
+*.swp
+*.swo
+*~

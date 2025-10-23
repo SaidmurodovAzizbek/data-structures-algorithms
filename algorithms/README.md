@@ -18,8 +18,12 @@ Each subfolder represents a different **category of algorithms**, with clear cod
 ## 🧩 Example Usage
 
 ```python
-from algorithms.sorting.bubble_sort import bubble_sort
+from algorithms.searching.linear_search import linear_search
 
-arr = [5, 3, 8, 4, 2]
-sorted_arr = bubble_sort(arr)
-print(sorted_arr)  # Output: [2, 3, 4, 5, 8]
+arr = [10, 20, 30, 40, 50]
+target = 30
+
+index = linear_search(arr, target)
+print(index)  # Output: 2
+
+```
